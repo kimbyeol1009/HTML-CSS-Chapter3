@@ -3,6 +3,7 @@ import {Link} from "react-router-dom";
 
 const Footer = ()=>{
     return(
+        //gd
         <div class="footer">
                 Google offered in:
                 <Link to="#">한국어</Link>
