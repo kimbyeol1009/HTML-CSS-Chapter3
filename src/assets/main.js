@@ -4,7 +4,7 @@ const Main = () =>{
     return(
     <div className="main">
         <Link to="/">
-            <img src={require('../images/google.png')}/><br/>
+            <img src={require('../images/google.png')} alt=""/><br/>
         </Link>
 
         <i className="fa-solid fa-magnifying-glass"></i>
