@@ -4,6 +4,4 @@
 
 [build.environment]
   NODE_VERSION = "20.0.0"
-
-[build.environment]
   CI = "false"
