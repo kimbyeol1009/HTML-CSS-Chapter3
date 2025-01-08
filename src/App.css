@@ -1,38 +1,49 @@
-.App {
+.header{
+  display: flex;
+  justify-content: right; /* 가로 정렬 */
+  align-items: center;     /* 세로 정렬 */
+}
+.header>a, i{
+  text-decoration: none;
+  padding : 10px;
+  color : black;
+  
+}
+.main{
+  text-align : center;
+  margin-bottom : 300px;
+}
+.footer{
   text-align: center;
 }
+.footer > a, .footer > span > a {
+  text-decoration: none;
+  padding: 5px;
+  color: black;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a:hover, .footer > span > a:hover {
+  color: blue;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+img {
+  width : 220px;
+  display: block;
+  margin: 0 auto;
 }
-
-.App-link {
-  color: #61dafb;
+.gmail{
+  text-align: center;
+  color :blueviolet;
+  font-size: 40px;
+  font-weight: bolder;
+  margin : 20px;
+  
 }
+.images{
+  text-align: center;
+  color :rgb(226, 43, 134);
+  font-size: 40px;
+  font-weight: bolder;
+  margin : 20px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
 }
