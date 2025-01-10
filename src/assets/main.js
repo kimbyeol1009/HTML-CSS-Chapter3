@@ -7,12 +7,15 @@ const Main = () =>{
             <img src={require('../images/google.png')} alt=""/><br/>
         </Link>
 
-        <i className="fa-solid fa-magnifying-glass"></i>
-        <input placeholder="react...새싹도아닌 씨앗에게 물을..." type="text"/>
-        <i className="fa-solid fa-microphone"></i><br/>
-        <button>Google Search</button>
-        <button>I'm feeling lucky</button>
+        <i className="fa-solid fa-magnifying-glass search-icon"></i>
+        <input className="input-area input-box" type="text"/>
+        <i className="fa-solid fa-microphone mic-icon"></i><br/>
+        <div className="button-area">
+        <button className="button-style">Google Search</button>
+        <button className="button-style">I'm feeling lucky</button>
+        </div>
     </div>
+
     )
 };
 

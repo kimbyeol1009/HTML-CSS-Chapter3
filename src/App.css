@@ -1,35 +1,77 @@
-.header{
-  display: flex;
-  justify-content: right; /* 가로 정렬 */
-  align-items: center;     /* 세로 정렬 */
+.header-container::after {
+  content: "";
+  display: block;
+  clear: both;
 }
-.header>a, i{
+
+
+.header{
+ float : right;
+ margin : 20px;
+}
+.header-item{
   text-decoration: none;
-  padding : 10px;
+  margin-right : 15px;
   color : black;
   
 }
-.main{
-  text-align : center;
-  margin-bottom : 300px;
+.header-item:hover{
+  text-decoration: underline;
 }
-.footer{
+.main{
+  margin-top : 300px;
   text-align: center;
 }
-.footer > a, .footer > span > a {
-  text-decoration: none;
-  padding: 5px;
-  color: black;
+.input-area{
+  margin-top: 20px;
+}
+.input-box{
+  width : 449px;
+  height : 44px;
+  border-radius: calc(0.5* 48px); 
+  border : 1px solid #dfe1e5;
+  padding-left:50px;
+  padding-right : 50px;
+}
+.search-icon{
+  position : relative;
+  left : 40px;
+  color : #9aa0a6;
+}
+.mic-icon{
+  position : relative;
+  right : 40px;
+  color : #9aa0a6;
 
 }
-a:hover, .footer > span > a:hover {
-  color: blue;
+.button-area{
+  padding-top : 18px;
+}
+.button-style{
+  height : 38px;
+  background-color: #f0f0f0;
+  border : 1px solid #f0f0f0;
+  border-radius: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding : 0 16px;
+  margin : 11px 4px;
+}
+.button-style:hover{
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  background-color: #f0f0f0;
+  border : 1px solid #dadce0;
+  color : #202124;
+}
+.footer{
+}
+.footer > a, .footer > span > a {
+
 }
 img {
   width : 220px;
-  display: block;
-  margin: 0 auto;
 }
+
+/* 라우팅 된 페이지 */
 .gmail{
   text-align: center;
   color :blueviolet;
